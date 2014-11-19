@@ -12,6 +12,8 @@
         <string>Reflector</string>
         <key>SPARKLE_FEED_URL</key>
         <string>https://updates.airsquirrels.com/Reflector/Mac/Reflector.xml</string>
+        <key>USER_AGENT</key>
+        <string>Reflector/1.6.4.0 Sparkle/313</string>
     </dict>
     <key>MinimumVersion</key>
     <string>0.2.0</string>
@@ -27,6 +29,14 @@
             </dict>
         </dict>
         <dict>
+            <key>Arguments</key>
+            <dict>
+                <key>request_headers</key>
+                <dict>
+                    <key>user-agent</key>
+                    <string>%USER_AGENT%</string>
+                </dict>
+            </dict>
             <key>Processor</key>
             <string>URLDownloader</string>
         </dict>
