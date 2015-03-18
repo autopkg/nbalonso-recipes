@@ -13,7 +13,7 @@
         <key>SPARKLE_FEED_URL</key>
         <string>https://updates.airsquirrels.com/AirParrot/Mac/AirParrot.xml</string>
         <key>USER_AGENT</key>
-        <string>AirParrot/1.5.4 Sparkle/313</string>
+        <string>AirParrot 2/2.0.0 Sparkle/0b186dc</string>
     </dict>
     <key>MinimumVersion</key>
     <string>0.2.0</string>
